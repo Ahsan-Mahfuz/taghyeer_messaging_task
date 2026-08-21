@@ -10,8 +10,13 @@ Two pages:
 
 ## Links
 
-- Landing: _added after deploy_
-- Chat: _added after deploy_
+|              |                                                         |
+| ------------ | ------------------------------------------------------- |
+| Landing page | https://taghyeer-messaging-task.vercel.app              |
+| Chat app     | https://taghyeer-messaging-task.vercel.app/app          |
+| Source       | https://github.com/Ahsan-Mahfuz/taghyeer_messaging_task |
+
+Both pages come out of this one project, so there is a single deploy behind them.
 
 ## Run it
 
@@ -38,15 +43,15 @@ variables at the top of `src/app/globals.css`.
 
 ## Layout
 
-| Folder | What is in it |
-| --- | --- |
-| `src/app` | the two routes, global CSS, favicon |
-| `src/components/landing` | hero, features, steps, footer |
-| `src/components/chat` | sidebar, thread, composer, group panels, dialogs |
-| `src/components/auth` | login card |
-| `src/components/ui` | Button, Modal, Avatar, ConfirmDialog, icons |
-| `src/hooks` | session, socket, messages, outbox, auto-scroll |
-| `src/lib` | API client, socket wiring, types, formatting |
+| Folder                   | What is in it                                    |
+| ------------------------ | ------------------------------------------------ |
+| `src/app`                | the two routes, global CSS, favicon              |
+| `src/components/landing` | hero, features, steps, footer                    |
+| `src/components/chat`    | sidebar, thread, composer, group panels, dialogs |
+| `src/components/auth`    | login card                                       |
+| `src/components/ui`      | Button, Modal, Avatar, ConfirmDialog, icons      |
+| `src/hooks`              | session, socket, messages, outbox, auto-scroll   |
+| `src/lib`                | API client, socket wiring, types, formatting     |
 
 ## Decisions you may wonder about
 
