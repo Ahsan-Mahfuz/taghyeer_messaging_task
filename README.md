@@ -69,9 +69,12 @@ of history repeats one message from the page before it.
 **A 401 signs you out.** There is no refresh endpoint. The token and user sit in
 `localStorage` under `pulse-session`.
 
-## API docs
+## Docs
 
-I wrote these first, by running the API, before any UI existed.
+- [docs/WRITEUP.md](docs/WRITEUP.md) - how I went about it, why the design looks like this,
+  which AI tools I used, what went wrong
+
+The two below I wrote first, by running the API, before any UI existed.
 
 - [docs/API-REFERENCE.md](docs/API-REFERENCE.md) - every endpoint with a real request and
   response, error codes, the socket contract
